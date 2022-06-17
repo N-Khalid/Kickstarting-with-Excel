@@ -32,7 +32,19 @@ There were two challenges performing this analysis:
 
 ### Analysis of Outcomes Based on Launch Date
 
+I came to two conclusions regarding outcomes based on launch date:
+
+1.
+
+2.
+
 What are two conclusions you can draw about the Theater Outcomes by Launch Date
+
+I came to two conclusions regarding theater outcomes by launch date:
+
+1.
+
+2.
 
 ### Analysis of Outcomes Based on Goals
 
