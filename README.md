@@ -15,7 +15,7 @@ The purpose of this analysis is to determine the results of different Kickstart 
 
 Using PivotTable Analyze, I inserted a line graph to help visualize data based on the 'theater' category. 
 
-![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/103234661/174200265-1ba03fd7-b6cc-45f3-a81b-0fdde43f27fa.png)
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/103234661/174417731-dd6b8f00-b8e5-4190-aff0-e7a43b1bdb1b.png)
 
 2. Next I created a table of the outcomes of the 'plays' subcatergory based on the goal.
  - Using the COUNTIFS function, I determined the number of 'plays' campaigns that were successful, failed and canceled within various goal ranges.
@@ -23,7 +23,7 @@ Using PivotTable Analyze, I inserted a line graph to help visualize data based o
  - I found what percent of campaigns were successful, failed and were canceled based on the goal range.
  - I completed this analysis by using a line graph to help visualize the outcomes of the 'plays' subcatergory based on the goal. 
  
- ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/103234661/174201055-bfc20331-97bc-4335-a0d7-f9f96c4b714e.png)
+ ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/103234661/174417617-46d9dfac-eb05-4b7d-be50-2f664b466a81.png)
 
 There were two challenges performing this analysis:
  1. Deciding which fields I wanted to add to my PivotTable to help portray the outcomes of the 'theater' category based on launch date. I overcame this challenge taking a step back to decide how I would create a similar table without the use of PivotTables and walked myself through each step in my head.
@@ -32,35 +32,28 @@ There were two challenges performing this analysis:
 
 ### Analysis of Outcomes Based on Launch Date
 
-I came to two conclusions regarding outcomes based on launch date:
+1. The best time to start a theater-based Kickstarter campaign would be May due to the rate of success versus all other months
 
-1.
+2. As a whole, the theater category of campaigns have a steady failure rate. 
 
-2.
-
-What are two conclusions you can draw about the Theater Outcomes by Launch Date
-
-I came to two conclusions regarding theater outcomes by launch date:
-
-1.
-
-2.
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/103234661/174417734-7a5e41cf-a335-4abb-ae85-f9918468e99a.png)
 
 ### Analysis of Outcomes Based on Goals
 
-What can you conclude about the Outcomes based on Goals?
+When the goal is relatively small (under $4,999), more campaigns are created and of those created campagins, more are successful.  
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/103234661/174417623-7ff925ef-a569-4752-a168-04c8aee583b1.png)
 
 ### Challenges and Difficulties Encountered
 
-What are some limitations of this dataset?
-What are some other possible tables and/or graphs that we could create?
+**What are some limitations of this dataset?**
 
-## Results
+Two limitations of this dataset are the timeframe the data was collected and the amount of platform's used in this dataset.
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+1. As Kickstarter gains or loses more traction as a platform, data that is current would provide a far larger sample size. The last recorded ending date ends in 2017. In the next 5 years, the platform's popularity may have attracted or dissuaded certain demographics which may skew the data of certain categories.
 
-- What can you conclude about the Outcomes based on Goals?
+2. Kickstarter is one of many platforms where people can bring their projects to life with community support. GoFundMe or IndieGoGo are examples of other popular platforms similar to Kickstarter that take up a large marketshare. If we were to collect data from all of these platforms, we would be presented a much more accurate display of campaign success rates, funding amounts and category popularity.
 
-- What are some limitations of this dataset?
+**What are some other possible tables and/or graphs that we could create?**
 
-- What are some other possible tables and/or graphs that we could create?
+Based on this data set, there are many useful tables and graphs that could be created such as a table with outcomes based on each country. It would be useful to know if countries that deal with harsher weather conditions would have a flatter line graph over the full year or if there may be other factors contributing to why the spring and summer months show more success. 
